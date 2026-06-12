@@ -3,8 +3,8 @@ import { motion } from "motion/react";
 const photos = [
   {
     id: 1,
-    url: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?q=80&w=600&auto=format&fit=crop",
-    caption: "Nosso primeiro encontro mágico...",
+    url: "1.jpeg",
+    caption: "Em cada risada, cada alegria...",
     rotate: -4,
     x: 0,
     y: 10,
