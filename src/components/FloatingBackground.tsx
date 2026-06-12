@@ -23,7 +23,7 @@ const FloatingBackground = () => {
       {elements.map((el) => (
         <motion.div
           key={el.id}
-          className="absolute text-pink-300 opacity-30"
+          className={`absolute opacity-30 ${el.type === 'heart' ? 'text-teal-400' : 'text-cyan-400'}`}
           initial={{ x: `${el.x}vw`, y: `${el.y}vh`, scale: 0 }}
           animate={{
             y: [`${el.y}vh`, `${el.y - 20}vh`, `${el.y}vh`],

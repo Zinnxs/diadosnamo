@@ -5,7 +5,7 @@ import { Heart } from "lucide-react";
 // --- START DATE VARIABLE ---
 // Change this to the exact date you started dating!
 // Format: "YYYY-MM-DDTHH:mm:ss" (Example: "2020-06-12T00:00:00")
-const START_DATE = "2020-02-14T00:00:00"; 
+const START_DATE = "2022-11-19T00:00:00"; 
 
 const FooterCounter = () => {
   const [timeTogether, setTimeTogether] = useState({
@@ -40,17 +40,17 @@ const FooterCounter = () => {
 
   return (
     <footer className="py-16 px-6 relative z-10 w-full mx-auto p-6 max-w-5xl">
-      <div className="backdrop-blur-xl bg-slate-900/80 border border-white/10 rounded-[40px] p-12 text-white shadow-xl flex flex-col items-center justify-center text-center">
+      <div className="backdrop-blur-xl bg-blue-950/80 border border-white/10 rounded-[40px] p-12 text-white shadow-xl flex flex-col items-center justify-center text-center">
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           className="mb-8"
         >
-          <div className="w-16 h-16 rounded-full bg-pink-500 mx-auto mb-6 flex items-center justify-center animate-pulse">
+          <div className="w-16 h-16 rounded-full bg-cyan-500 mx-auto mb-6 flex items-center justify-center animate-pulse shadow-lg shadow-cyan-500/20">
              <Heart size={32} className="text-white fill-white" />
           </div>
-          <p className="text-2xl md:text-3xl font-bold font-handwriting text-slate-100 italic">
+          <p className="text-2xl md:text-3xl font-bold font-handwriting text-cyan-50 italic">
             Para sempre meu amor.
           </p>
           <p className="text-slate-400 mt-2 text-sm uppercase tracking-widest font-bold">

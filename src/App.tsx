@@ -5,6 +5,7 @@ import MiniGame from "./components/MiniGame";
 import Gallery from "./components/Gallery";
 import FooterCounter from "./components/FooterCounter";
 import FloatingBackground from "./components/FloatingBackground";
+import AudioPlayer from "./components/AudioPlayer";
 
 export default function App() {
   const adventuresRef = useRef<HTMLElement>(null);
@@ -16,8 +17,9 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen relative font-sans selection:bg-pink-300 selection:text-white">
+    <div className="min-h-screen relative font-sans selection:bg-cyan-300 selection:text-blue-950">
       <FloatingBackground />
+      <AudioPlayer />
       
       <main className="relative">
         <Hero onScrollClick={scrollToAdventures} />

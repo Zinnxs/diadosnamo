@@ -60,7 +60,7 @@ const Gallery = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-bold text-slate-900 mb-4"
+            className="text-4xl md:text-5xl font-bold text-blue-950 mb-4"
           >
             Nossas Memórias
           </motion.h2>
@@ -94,15 +94,20 @@ const Gallery = () => {
                 zIndex: 40,
                 y: 0,
                 x: 0,
-                boxShadow: "0 25px 50px -12px rgba(236, 72, 153, 0.25)"
+                boxShadow: "0 25px 50px -12px rgba(6, 182, 212, 0.25)"
               }}
-              className="bg-white p-4 pb-6 shadow-xl rounded hover:z-50 transition-shadow duration-300 transform-gpu relative z-10 w-64 md:w-72"
+              className="bg-white p-4 pb-6 shadow-xl rounded hover:z-50 transition-[box-shadow,z-index] duration-300 transform-gpu relative z-10 w-64 md:w-72 group"
             >
-              <div className="overflow-hidden aspect-square rounded-sm mb-4 bg-slate-100">
+              {/* Tooltip */}
+              <div className="absolute -top-12 left-1/2 -translate-x-1/2 bg-cyan-500 text-white px-4 py-2 rounded-full text-xs font-bold shadow-lg opacity-0 pointer-events-none group-hover:opacity-100 group-hover:-translate-y-2 transition-all duration-300 whitespace-nowrap hidden md:block">
+                Ai meu coração! 💘
+              </div>
+              
+              <div className="overflow-hidden aspect-square rounded-sm mb-4 bg-slate-100 relative">
                 <img 
                   src={photo.url} 
                   alt="Nossa memória" 
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
               <p className="font-handwriting text-2xl text-slate-700 text-center px-2 leading-tight min-h-[3rem] flex items-center justify-center">

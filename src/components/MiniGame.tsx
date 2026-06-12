@@ -48,14 +48,14 @@ const MiniGame = () => {
         angle: 60,
         spread: 55,
         origin: { x: 0 },
-        colors: ['#f472b6', '#fbcfe8', '#e879f9', '#a78bfa']
+        colors: ['#06b6d4', '#10b981', '#3b82f6', '#a7f3d0']
       });
       confetti({
         particleCount: 5,
         angle: 120,
         spread: 55,
         origin: { x: 1 },
-        colors: ['#f472b6', '#fbcfe8', '#e879f9', '#a78bfa']
+        colors: ['#06b6d4', '#10b981', '#3b82f6', '#a7f3d0']
       });
 
       if (Date.now() < end) {
@@ -69,7 +69,7 @@ const MiniGame = () => {
     <section className="py-24 px-6 relative z-10 font-sans">
       <div 
         ref={containerRef}
-        className="max-w-2xl mx-auto backdrop-blur-xl bg-pink-50/50 border border-white/60 rounded-[40px] shadow-lg p-8 md:p-16 text-center relative overflow-hidden min-h-[400px] flex flex-col justify-center"
+        className="max-w-2xl mx-auto backdrop-blur-xl bg-cyan-50/50 border border-white/60 rounded-[40px] shadow-lg p-8 md:p-16 text-center relative overflow-hidden min-h-[400px] flex flex-col justify-center"
       >
         <AnimatePresence mode="wait">
           {!accepted ? (
@@ -80,7 +80,7 @@ const MiniGame = () => {
               exit={{ opacity: 0, scale: 1.1, filter: "blur(10px)" }}
               transition={{ duration: 0.5 }}
             >
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-12 leading-tight">
+              <h2 className="text-3xl md:text-4xl font-bold text-blue-950 mb-12 leading-tight">
                 Você aceita continuar sendo minha parceira de aventuras pra sempre?
               </h2>
               
@@ -89,7 +89,7 @@ const MiniGame = () => {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleYesClick}
-                  className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-4 px-12 rounded-full shadow-lg shadow-pink-200 text-xl transition-transform z-20"
+                  className="bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-4 px-12 rounded-full shadow-lg shadow-cyan-200 text-xl transition-transform z-20"
                 >
                   Sim!
                 </motion.button>
@@ -117,14 +117,14 @@ const MiniGame = () => {
               transition={{ type: "spring", bounce: 0.5, duration: 1 }}
               className="flex flex-col items-center"
             >
-              <div className="w-24 h-24 bg-pink-100 rounded-full flex items-center justify-center mb-6 shadow-inner">
-                <Heart className="text-pink-500 animate-pulse" size={48} fill="currentColor" />
+              <div className="w-24 h-24 bg-teal-100 rounded-full flex items-center justify-center mb-6 shadow-inner">
+                <Heart className="text-teal-500 animate-pulse" size={48} fill="currentColor" />
               </div>
-              <h2 className="text-4xl font-bold text-pink-600 mb-4 font-handwriting text-5xl">
+              <h2 className="text-4xl font-bold text-cyan-600 mb-4 font-handwriting text-5xl">
                 Sabia que você ia escolher a alternativa certa!
               </h2>
               <p className="text-2xl text-slate-600 font-light mt-4">
-                Te amo infinitamente, Chuchuzinho! ❤️
+                Te amo infinitamente, Chuchuzinho! 💙
               </p>
             </motion.div>
           )}

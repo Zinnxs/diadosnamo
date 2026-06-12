@@ -8,17 +8,17 @@
 
 @layer base {
   body {
-    @apply text-slate-800 antialiased overflow-x-hidden;
-    background: radial-gradient(circle at top right, #fdfcfb 0%, #e2d1c3 100%);
+    @apply text-blue-950 antialiased overflow-x-hidden;
+    background: radial-gradient(circle at top right, #ecfeff 0%, #d1fae5 100%);
     background-attachment: fixed;
   }
 }
 
 /* Glassmorphism utility */
 .glass {
-  @apply backdrop-blur-md bg-white/30 border border-white/50 shadow-lg;
+  @apply backdrop-blur-md bg-white/40 border border-white/50 shadow-lg;
 }
 
 .glass-card {
-  @apply backdrop-blur-xl bg-white/40 border border-white/60 rounded-[40px] shadow-xl;
+  @apply backdrop-blur-xl bg-white/50 border border-white/60 rounded-[40px] shadow-xl;
 }
