@@ -12,7 +12,7 @@ const photos = [
   {
     id: 2,
     url: "https://github.com/Zinnxs/diadosnamo/blob/main/2.jpeg?raw=true",
-    caption: "Aquele sorriso que me derrete todo",
+    caption: "Em cada gracinha e tentativa de tirar uma risada sua...",
     rotate: 3,
     x: 20,
     y: -20,
@@ -20,7 +20,7 @@ const photos = [
   {
     id: 3,
     url: "https://github.com/Zinnxs/diadosnamo/blob/main/3.jpeg?raw=true",
-    caption: "O dia que a gente se perdeu, mas se encontrou",
+    caption: "Uma das nossas ínumeras comemorações",
     rotate: -2,
     x: -15,
     y: 5,
@@ -36,7 +36,7 @@ const photos = [
   {
     id: 5,
     url: "https://github.com/Zinnxs/diadosnamo/blob/main/5.jpeg?raw=true",
-    caption: "Café, rissadas e amorzinho",
+    caption: "Em suas apresentações(que eu amo!)",
     rotate: -6,
     x: -25,
     y: -10,
@@ -44,7 +44,7 @@ const photos = [
   {
     id: 6,
     url: "https://github.com/Zinnxs/diadosnamo/blob/main/6.jpeg?raw=true",
-    caption: "Te amo daqui até a eternidade",
+    caption: "Todas convergem pra eu te dizer: Te amo daqui até a eternidade!",
     rotate: 4,
     x: 5,
     y: 0,
