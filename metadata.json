@@ -1,0 +1,6 @@
+{
+  "name": "Nossas Aventuras",
+  "description": "Uma landing page interativa e romântica para celebrar o Dia dos Namorados.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
