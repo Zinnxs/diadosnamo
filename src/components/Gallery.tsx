@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 const photos = [
   {
     id: 1,
-    url: "1.jpeg",
+    url: "https://github.com/Zinnxs/diadosnamo/blob/main/1.jpeg?raw=true",
     caption: "Em cada risada, cada alegria...",
     rotate: -4,
     x: 0,
@@ -11,7 +11,7 @@ const photos = [
   },
   {
     id: 2,
-    url: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?q=80&w=600&auto=format&fit=crop",
+    url: "https://github.com/Zinnxs/diadosnamo/blob/main/2.jpeg?raw=true",
     caption: "Aquele sorriso que me derrete todo",
     rotate: 3,
     x: 20,
@@ -19,7 +19,7 @@ const photos = [
   },
   {
     id: 3,
-    url: "https://images.unsplash.com/photo-1518599904199-0ca897819ceb?q=80&w=600&auto=format&fit=crop",
+    url: "https://github.com/Zinnxs/diadosnamo/blob/main/3.jpeg?raw=true",
     caption: "O dia que a gente se perdeu, mas se encontrou",
     rotate: -2,
     x: -15,
@@ -27,7 +27,7 @@ const photos = [
   },
   {
     id: 4,
-    url: "https://images.unsplash.com/photo-1533227260815-a131afef5591?q=80&w=600&auto=format&fit=crop",
+    url: "https://github.com/Zinnxs/diadosnamo/blob/main/4.jpeg?raw=true",
     caption: "Simplesmente você sendo perfeita",
     rotate: 5,
     x: 10,
@@ -35,7 +35,7 @@ const photos = [
   },
   {
     id: 5,
-    url: "https://images.unsplash.com/photo-1516410529446-2c777cb7366d?q=80&w=600&auto=format&fit=crop",
+    url: "https://github.com/Zinnxs/diadosnamo/blob/main/5.jpeg?raw=true",
     caption: "Café, rissadas e amorzinho",
     rotate: -6,
     x: -25,
@@ -43,7 +43,7 @@ const photos = [
   },
   {
     id: 6,
-    url: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=600&auto=format&fit=crop",
+    url: "https://github.com/Zinnxs/diadosnamo/blob/main/6.jpeg?raw=true",
     caption: "Te amo daqui até a eternidade",
     rotate: 4,
     x: 5,
