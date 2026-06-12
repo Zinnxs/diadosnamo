@@ -53,7 +53,7 @@ const AudioPlayer = () => {
           loop={true}
           width="0"
           height="0"
-          volume={0.5} // a pleasant background volume
+          volume={1} // a pleasant background volume
         />
       </div>
     </div>
